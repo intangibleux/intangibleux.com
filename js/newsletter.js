@@ -1,5 +1,5 @@
 $(function() {
-    $.getJSON('https://freelance.axelvf.com.ar/observando/mailchimp.php')
+    $.getJSON('https://freelance.axelvf.com.ar/intangible/mailchimp.php')
      .success(function(data) {
         var ul;
         for (var i = 0; i < data.length; i++) {
