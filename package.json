@@ -1,0 +1,22 @@
+{
+  "name": "intangible",
+  "version": "1.0.0",
+  "description": "Sitio web del newsletter de diseño UX  y tecnología",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/styles.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intangibleux/intangibleux.com.git"
+  },
+  "author": "Melisa Hildt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intangibleux/intangibleux.com/issues"
+  },
+  "homepage": "https://github.com/intangibleux/intangibleux.com#readme",
+  "dependencies": {
+    "tailwindcss": "^1.1.4"
+  }
+}

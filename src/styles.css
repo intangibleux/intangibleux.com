@@ -1,0 +1,31 @@
+@tailwind base;
+
+p {
+    @apply text-base font-body text-blue-light font-normal;
+}
+
+ul,li {
+    @apply text-base font-body text-blue-dark font-normal;
+}
+
+h1 {
+    @apply font-display font-bold text-blue-dark text-4xl;
+}
+
+h2 {
+    @apply font-display font-bold text-blue-dark;
+}
+
+h3 {
+    @apply font-display font-medium text-blue-dark text-3xl;
+}
+
+h4 {
+    @apply font-display font-bold text-blue-dark text-2xl;
+}
+
+@tailwind components;
+
+@tailwind utilities;  
+  
+ 
