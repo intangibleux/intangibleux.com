@@ -2,7 +2,7 @@
   "name": "intangible",
   "version": "1.0.0",
   "description": "Sitio web del newsletter de diseño UX  y tecnología",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "build:css": "tailwind build src/styles.css -o dist/style.css"
   },
